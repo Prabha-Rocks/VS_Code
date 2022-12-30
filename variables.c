@@ -11,7 +11,11 @@ int main()
     printf("%d \n",B);
     int w,x,y;
     w=x=y=A;
-    printf("%d,%d,%d",w,x,y);
+    printf("%d,%d,%d ",w,x,y);
+    int a=2,b=3,c=6;
+    int r= (a + b) * c / b;
+    printf("\n( %d + %d ) * %d / %d",a , b, c);
+    printf(" Result= %d",r);
     return 0;
 
 }
