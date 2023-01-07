@@ -4,12 +4,12 @@ int main()
 {
     // To print size of different datatypes
     printf("%d \n",sizeof(int));
-    printf("%d \n",sizeof(short ));
+    printf("%d \n",sizeof(long int ));
     printf("%d \n",sizeof(long));
     printf("%d \n",sizeof(char));
     printf("%d \n",sizeof(long long));
     printf("%d \n",sizeof(float));
-    printf("%d \n",sizeof(double));
+    printf("%d \n",sizeof( double));
     //to find limits of some datatypes
     //size of signed integer
     int a=INT_MIN,b=INT_MAX;
@@ -22,10 +22,11 @@ int main()
     printf(" \n Range of signed short integer:%d to %d",e,f);
     //size of unsigned short integer
     int g=0 , h=UINT_MAX;
-    printf("\n Range of unsigned short integer: %u to %u",g,h);
-
-
-    
-
+    printf("\n Range of unsigned short integer: %u to %u \n",g,h); 
+    //printing float values
+    float var= 4.0/9.0;
+    printf("%f \n",var);
+    int z=4/9;
+    printf("%d \n",z);
     return 0;
 }
