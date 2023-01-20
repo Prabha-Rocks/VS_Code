@@ -42,7 +42,7 @@ for(j=0;j<20;j++){
     printf("%d \n",o);//Output: 1
 //Find output of following program:-
 int x=3;
-if(x==2);//since x!=2 we come out of the loop
+if(x==2);//since x!=2 we come out of the condition
 x=0;//now val of x=0 as per statement
 if(x==3)x++;//0!=3
 else x+=2;//so x=x+2 is printed i.e x=0+2=2
