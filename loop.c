@@ -22,7 +22,7 @@ int main(){
     switch(x){
         case 1:printf("val of x ix 1");
         break;
-        case 2:printf("val of x is 2 \n");
+        case 2:printf("val of x is 2 \n");//Output: val of x is 2
         break;
         case 3:printf("val of x is 3");
         break;
@@ -31,7 +31,7 @@ int main(){
     }
     //MCQ Ques
     unsigned int var =10;
-    printf("\n %d \n",~var);
+    printf(" %d \n",~var);//
     //WAP to allow user to enter integers until he/she enters a -ve no. or 0
     int i;
     printf("Enter a number: ");
@@ -53,6 +53,7 @@ int main(){
             m=m+2;
             continue;
         }
-    printf("%d \n",j);
+printf("All odd nos. between 1 to 20:");
+printf("%d \n",j);
 } return 0;
 }
