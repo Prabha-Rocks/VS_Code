@@ -31,7 +31,7 @@ int main(){
     }
     //MCQ Ques
     unsigned int var =10;
-    printf(" %d \n",~var);//
+    printf(" %d \n",~var);//Output: -11
     //WAP to allow user to enter integers until he/she enters a -ve no. or 0
     int i;
     printf("Enter a number: ");
@@ -54,6 +54,6 @@ int main(){
             continue;
         }
 printf("All odd nos. between 1 to 20:");
-printf("%d \n",j);
+printf("%d \n",j);//Output:all odd numbers from 1 to 20 will be printed
 } return 0;
 }
