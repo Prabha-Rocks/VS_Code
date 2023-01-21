@@ -1,10 +1,10 @@
 //How many times will "Hello World" be printed in the Following program?
 #include <stdio.h>
 int main(){
-    int i=1024;
-    for(;i;i>>=1)
-        printf("Hello World \n");
-//Output of following program
+int i=1024;
+for(;i;i>>=1)
+    printf("Hello World \n");//Output:
+//Find Output of following program
 int j;
 for(j=0;j<20;j++){
     switch(j){
