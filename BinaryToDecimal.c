@@ -1,4 +1,5 @@
 //WAP to Convert Binary to Decimal number
+//to convert binary to decimal we multiply 
 #include <stdio.h>
 int main()
 {
