@@ -12,7 +12,8 @@ int main()
     for(i=1;i<num;i++)
     {
         rem=num%i;
-    if(rem==0)
+    if(rem==0)//This if section helps us to find sum of all the proper +ve divisors of the num
+
         {
             sum=sum+i;
         }
